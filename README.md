@@ -2,23 +2,41 @@
 GIT COMMANDS :-
 **********************************************
 Create a repo on github(using no readme file ) and copy the ssh link (if private then ssh other wise simple)
+
 Go to the folder ->do gitbash here or cd path
+
 git config --global user.name "kanchan0912"
+
 git config --global user.email "jkanchan2911@gmail.com
+
 touch .gitignore
+
 (open file ->  jo b file ignore krni h uska naam n folder k liye folder/ n and save it )
+
 git init
+
 git add .
+
 git commit -m "Initial commit"
+
 git status (just to check)
+
 git remote add origin pasteRepolink
+
 git push origin master 
+
 If project is private then go to settings of github -> go to ssh and jpg keys->create new ssh key->keyName
-go to ggogle serach for it and copy the command 
+
+go to google serach for it and copy the command 
+
 ssh-keygen -t rsa -b 4096 -C  "your email"->enter ->enter 
+
 cat copyPathFromTheGivenLines//tail path
+
 Copy ssh key and paste it in sttings of repo
+
 git push origin master
+
 git log to see track and q to quit
 *********************************************
 GIT ADD
